@@ -1,7 +1,7 @@
 {
   "name": "helper-methods",
   "version": "0.0.1",
-  "description": "[![Coverage Status](https://coveralls.io/repos/github/prateekpronoc/helper-methods/badge.svg?branch=master)](https://coveralls.io/github/prateekpronoc/helper-methods?branch=master) [![Build Status](https://travis-ci.org/prateekpronoc/helper-methods.svg?branch=master)](https://travis-ci.org/prateekpronoc/helper-methods)",
+  "description": "The collection of javascript methods to ease developers job.",
   "main": "index.js",
   "directories": {
     "test": "test"
