@@ -23,5 +23,24 @@ module.exports = {
      */
     indexify: (data, attr, valueAttr) => {
         return _.zipObject(_.map(data, attr), _.map(data, valueAttr));
+    },
+
+    /**
+     * Convert json Object to an array by properties
+     * @param {jsonObject} object
+     * @return {array}
+     */
+    jsonToArray: (object) => {
+        if (!object || _.size(object) === 0) {
+            return [];
+        }
+        let arr = [],
+            ob = {};
+        _.forOwn(object, function(value, key) {
+            ob[key] = value;
+            arr.push(ob);
+            ob = {};
+        });
+        return arr;
     }
 };
