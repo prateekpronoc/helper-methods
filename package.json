@@ -24,8 +24,7 @@
   },
   "author": "Prateek Kumar Srivastava",
   "url": "https://prateekpronoc.github.io/prateekpronoc",
-  "email"
-  "prateek.pronoc@gmail.com"
+  "email" : "prateek.pronoc@gmail.com",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/prateekpronoc/helper-methods/issues"
