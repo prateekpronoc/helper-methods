@@ -12,9 +12,10 @@ The collection of javascript methods to ease developers job.
 
 ## Usage
 
-`
-var helperMethods = require('helper-methods');
-var indexifiesObject = helperMethods.indexifyArray([{ id: 91, value: 'India' }, { id: 1, value: 'USA' }],'id');
+`var helperMethods = require('helper-methods');`
+
+`var indexifiesObject = helperMethods.indexifyArray([{ id: 91, value: 'India' }, { id: 1, value: 'USA' }],'id');
+
 `
 
 ## Output
