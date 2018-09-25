@@ -1,19 +1,33 @@
 {
   "name": "helper-methods",
   "version": "0.0.1",
-  "description": "",
+  "description": "The collection of javascript methods to ease developers job.",
   "main": "index.js",
-  "scripts": {
-    "test": "node_modules/.bin/mocha --reporter spec",
-    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
+  "directories": {
+    "test": "test"
   },
-  "author": "Prateek Kumar Srivastava",
-  "license": "ISC",
-  "dependencies": {
+ "dependencies": {
     "chai": "^4.1.2",
     "coveralls": "^3.0.2",
     "istanbul": "^0.4.5",
     "lodash": "^4.17.11",
     "mocha": "^5.2.0"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec",
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prateekpronoc/helper-methods.git"
+  },
+  "author": "Prateek Kumar Srivastava",
+  "url": "https://prateekpronoc.github.io/prateekpronoc",
+  "email" : "prateek.pronoc@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prateekpronoc/helper-methods/issues"
+  },
+  "homepage": "https://github.com/prateekpronoc/helper-methods#readme"
 }
