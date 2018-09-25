@@ -6,11 +6,11 @@
 The collection of javascript methods to ease developers job.
 
 
-## Installation
+## :electric_plug: Installation
 
 `npm install helper-methods -S/-D`
 
-## Usage
+ ##  Usage
 
 ```
 var helperMethods = require('helper-methods');
