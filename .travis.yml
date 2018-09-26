@@ -9,3 +9,12 @@ script:
 
 # Send coverage data to Coveralls
 after_script: "cat coverage/lcov.info | node_modules/coveralls/bin/coveralls.js"
+
+addons:
+  sonarcloud:
+    organization: "prateekpronoc-github" # the key of the org you chose at step #3
+    token:
+      secure: a3139a4ed3101d994814a5dec05899a092bff875 # encrypted value of your token
+script:
+  # other script steps might be done before running the actual analysis
+  - sonar-scanner
