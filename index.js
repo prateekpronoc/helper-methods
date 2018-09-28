@@ -1,9 +1,17 @@
 'use strict';
 let _ = require('lodash');
 module.exports = {
-    addTwoNumber: (a, b) => {
-        return a + b;
+
+    /**
+     * Add Two Number
+     * @param {integer} num1
+     * @param {integer} num2
+     * @return {integer}
+     */
+    addTwoNumber: (num1, num2) => {
+        return num1 +  num2;
     },
+
     /**
      * Indexify the array
      * @param {array} data
