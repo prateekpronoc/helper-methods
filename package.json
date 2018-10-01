@@ -1,6 +1,6 @@
 {
   "name": "helper-methods",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The collection of javascript methods to ease developers job.",
   "main": "index.js",
   "directories": {

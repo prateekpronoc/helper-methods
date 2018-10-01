@@ -2,7 +2,7 @@
 
 var expect = require('chai').expect;
 var helper = require('../index.js');
-describe('#IndexifyArray', function() {
+describe('#Indexify', function() {
     it('should convert array to json object by attributes', function() {
         var data = [{
             'id': 1,

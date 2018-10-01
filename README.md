@@ -4,3 +4,27 @@
 
 
 The collection of javascript methods to ease developers job.
+
+
+## :electric_plug: Installation
+
+```javascript
+
+npm install helper-methods -S/-D
+
+```
+
+ ##  Usage
+
+```javascript
+var helperMethods = require('helper-methods');
+
+var indexifiesObject = helperMethods.indexifyArray([{ id: 91, value: 'India' }, { id: 1, value: 'USA' }],'id');
+
+```
+
+## Output
+
+```
+{ 1: { id: 1, value: 'USA' }, 91: { id: 91, value: 'India'}};	
+```
