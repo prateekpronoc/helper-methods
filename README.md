@@ -26,7 +26,7 @@ var indexifiesObject = helperMethods.indexifyArray([{ id: 91, value: 'India' }, 
 ## Output
 
 ```
-{ 1: { id: 1, value: 'USA' }, 91: { id: 91, value: 'India'}};	
+{ 1: { id: 1, value: 'USA' }, 91: { id: 91, value: 'India'}};
 ```
 
 ## Using This Module
@@ -39,7 +39,7 @@ var helperMethods = require('helper-methods');
 
 ### IndexifyArray
 
-This method indexify the array of JSON object by the attribue of JSON object and return unique result.
+This method indexify the array of JSON object by the attribute of JSON object and return unique result.
 
 ```js
 var data = [{
@@ -51,15 +51,15 @@ var data = [{
       'user': 'fred',
       'active': false
     }];
-    
+
  helperMehtods.indexifyArray(data,'id');
  //result
- ==> {1:{'id':1,'user':'barney','active':false},2:{'id':2,'user':'fred','active':false}} 
+ ==> {1:{'id':1,'user':'barney','active':false},2:{'id':2,'user':'fred','active':false}}
 ```
 
 ### Indexify
 
-This mehtod indexify the array of json object based upon the request attribute of json object.
+This method indexify the array of json object based upon the request attributes of json object.
 
 ```js
 var data = var data = [{
@@ -71,11 +71,23 @@ var data = var data = [{
       'user': 'fred',
       'active': false
     }];
-    
+
  helperMehtods.indexify(data,'id','user');
- //result 
+ //result
  ==> {1:'barney',2:'fred'};
 ```
 
+### JsonToArray
 
+This method convert json object to array
 
+```js
+var data = {
+            'id': 1,
+            'user': 'barney',
+            'active': false
+        };
+ helperMethods.jsonToArray(data);
+ //result
+ // [{ 'id': 1},{ 'user': 'barney' },{ 'active': false }]       
+```
