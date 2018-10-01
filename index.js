@@ -53,25 +53,6 @@ module.exports = {
     },
 
     /**
-     * Convert json Object to an array by properties
-     * @param {jsonObject} object
-     * @return {array}
-     */
-    jsonToArray: (object) => {
-        if (!object || _.size(object) === 0) {
-            return [];
-        }
-        let arr = [],
-            ob = {};
-        _.forOwn(object, function(value, key) {
-            ob[key] = value;
-            arr.push(ob);
-            ob = {};
-        });
-        return arr;
-    },
-
-    /**
      * JSON Object differences
      * @param {jsonObject} object1
      * @param {jsonObject} object2
