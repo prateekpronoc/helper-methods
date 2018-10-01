@@ -28,3 +28,10 @@ var indexifiesObject = helperMethods.indexifyArray([{ id: 91, value: 'India' }, 
 ```
 { 1: { id: 1, value: 'USA' }, 91: { id: 91, value: 'India'}};	
 ```
+
+## Table of Content
+
+1. IndexifyArray
+2. Indexify
+3. JsonToArray
+4. ObjectDifference
