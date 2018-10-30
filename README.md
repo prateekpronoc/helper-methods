@@ -91,3 +91,26 @@ var data = {
  //result
  // [{ 'id': 1},{ 'user': 'barney' },{ 'active': false }]       
 ```
+
+### ObjectDifference
+
+```js
+var object1 = { 'user': 'barney', 'age': 36, 'active': true },
+object2 = { 'user': 'Prateek',   'age': 50, 'active': false };
+helperMethods.objectDifference(object1,object2);
+//result
+//=> object of barney
+
+
+var object1 = { 'user': 'barney', 'age': 36, 'active': true },
+object2 = { 'user': 'Prateek',   'age': 50, 'active': false }
+helperMethods.objectDifference(object1,object2,['age']);
+//result
+//=> object of Prateek with only age {age:50};
+
+var object1 = { 'user': 'barney', 'age': 36, 'active': true },
+object2 = { 'user': 'Prateek',   'age': 50, 'active': false }
+helperMethods.objectDifference(object1,object2,['user','age']);
+//result
+//=> object of barney {user:'barney',age:36};
+```
