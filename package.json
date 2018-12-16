@@ -1,6 +1,6 @@
 {
   "name": "helper-methods",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "The collection of javascript methods to ease developers job.",
   "main": "index.js",
   "directories": {
@@ -29,5 +29,12 @@
   "bugs": {
     "url": "https://github.com/prateekpronoc/helper-methods/issues"
   },
-  "homepage": "https://github.com/prateekpronoc/helper-methods#readme"
+  "homepage": "https://github.com/prateekpronoc/helper-methods#readme",
+  "keywords": [
+    "json",
+    "object",
+    "array",
+    "object difference",
+    "convet to array from json object"
+  ],
 }
